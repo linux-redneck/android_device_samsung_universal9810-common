@@ -506,4 +506,8 @@
     <!-- FP trustled limits the number to 4. -->
     <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
 
+    <!-- Allow the gesture power + volume up to change the ringer mode while the device
+         is interactive. -->
+    <bool name="config_volumeHushGestureEnabled">false</bool>
+
 </resources>
