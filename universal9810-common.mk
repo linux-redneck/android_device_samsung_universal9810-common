@@ -84,6 +84,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service.9810
 
+# Touch
+PRODUCT_PACKAGES += \
+    lineage.touch@1.0-service.9810
+
 # Trust
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service

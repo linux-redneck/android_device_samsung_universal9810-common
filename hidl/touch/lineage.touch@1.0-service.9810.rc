@@ -1,0 +1,4 @@
+service touch-hal-1-0-9810 /system/bin/hw/lineage.touch@1.0-service.9810
+    class hal
+    user system
+    group system
