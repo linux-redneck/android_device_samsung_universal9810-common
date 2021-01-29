@@ -90,18 +90,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service.9810
-
-# Touch
-PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.9810
-
-# FastCharge
-PRODUCT_PACKAGES += \
-    lineage.fastcharge@1.0-service.9810
-
 # Lights
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/hidl/lights/vendor.samsung.hardware.light@3.0-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.samsung.hardware.light@3.0-service \
@@ -114,10 +102,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/hidl/power/android.hardware.power@1.3-service.samsung-libperfmgr:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/android.hardware.power@1.3-service.samsung-libperfmgr \
     $(LOCAL_PATH)/hidl/power/libperfmgr.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libperfmgr.so \
     $(LOCAL_PATH)/hidl/power/powerhint.json:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/powerhint.json
-
-# Ringtones
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/media/audio/ringtones/Xylophone_Dubstep.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Xylophone_Dubstep.ogg
 
 # S-Pen
 PRODUCT_COPY_FILES += \
